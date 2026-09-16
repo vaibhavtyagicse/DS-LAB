@@ -1,213 +1,95 @@
-# 📚 Data Structures & Algorithms
+# 📚 DSA in C
 
-Welcome to my **Data Structures and Algorithms (DSA)** repository.
-This repository contains my implementations, practice problems, and coding solutions using **C and Python**.
+> A collection of Data Structures & Algorithms implementations and practice problems written in C.
 
-The goal is to build a strong foundation in DSA, improve problem-solving skills, and practice writing efficient and optimized code.
-
----
-
-## 🚀 Languages Used
-
-* 🔵 **C**
-* 🐍 **Python**
+![Language](https://img.shields.io/badge/Language-C-blue.svg)
+![Topic](https://img.shields.io/badge/Topic-Data%20Structures%20%26%20Algorithms-orange.svg)
+![Status](https://img.shields.io/badge/Status-Learning-green.svg)
 
 ---
 
-## 📂 Topics Covered
+## 📖 About This Repository
 
-### 🔹 Data Structures
+Welcome to my **Data Structures & Algorithms (DSA)** repository.
 
-* Arrays
-* Strings
-* Linked Lists
+This repository contains my journey of learning and practicing **Data Structures and Algorithms using C programming**.
 
-  * Singly Linked List
-  * Doubly Linked List
-  * Circular Linked List
-* Stack
-* Queue
-* Circular Queue
-* Trees
-* Binary Search Tree
-* Heap
-* Hashing
-* Graphs
+It includes implementations of fundamental concepts such as:
 
-### 🔹 Algorithms
+- Arrays
+- Linked Lists
+- Searching Algorithms
+- Sorting Algorithms
+- Programming and Problem-Solving Practice
 
-* Searching
+The main purpose of this repository is to strengthen my understanding of DSA, improve logical thinking, and develop efficient problem-solving skills.
 
-  * Linear Search
-  * Binary Search
-* Sorting
-
-  * Bubble Sort
-  * Selection Sort
-  * Insertion Sort
-  * Merge Sort
-  * Quick Sort
-  * Heap Sort
-* Recursion
-* Backtracking
-* Greedy Algorithms
-* Dynamic Programming
-* Graph Algorithms
-
-### 🔹 Problem Solving
-
-* Pattern Problems
-* Mathematical Problems
-* String Problems
-* Array Problems
-* Linked List Problems
-* Stack & Queue Problems
-* Tree & Graph Problems
-* LeetCode Problems
+This repository will be continuously updated as I learn new concepts and solve more problems.
 
 ---
 
-## 📁 Repository Structure
+## 🚀 Why This Repository?
+
+Data Structures and Algorithms are fundamental to programming and software development.
+
+Through this repository, I am working on:
+
+- 🧠 Improving logical thinking
+- 💻 Strengthening C programming
+- 🧩 Developing problem-solving skills
+- ⚡ Understanding algorithm efficiency
+- 📊 Learning Time & Space Complexity
+- 🎯 Preparing for coding interviews
+- 🎓 Building strong DSA fundamentals
+
+---
+
+## 🛠️ Language Used
+
+### 🔵 C Programming
+
+The current programs in this repository are primarily implemented using **C**.
+
+C helps in understanding important programming concepts such as:
+
+- Pointers
+- Structures
+- Memory Management
+- Arrays
+- Functions
+- Dynamic Memory Allocation
+- Recursion
+- Low-Level Data Structure Implementation
+
+---
+
+# 📂 Repository Structure
 
 ```text
 DSA/
 │
-├── C/
-│   ├── Arrays/
-│   ├── Linked_List/
-│   ├── Stack/
-│   ├── Queue/
-│   ├── Trees/
-│   ├── Graphs/
-│   └── Sorting_Searching/
+├── 📁 Array/
+│   ├── Array programs
+│   ├── Array operations
+│   └── Array-based problems
 │
-├── Python/
-│   ├── Arrays/
-│   ├── Linked_List/
-│   ├── Stack/
-│   ├── Queue/
-│   ├── Trees/
-│   ├── Graphs/
-│   └── Sorting_Searching/
+├── 📁 Linked List/
+│   ├── Node creation
+│   ├── Traversal
+│   ├── Insertion
+│   ├── Deletion
+│   └── Linked List problems
 │
-└── LeetCode/
-    ├── Easy/
-    ├── Medium/
-    └── Hard/
-```
-
----
-
-## 💻 Example
-
-### Singly Linked List in C
-
-```c
-#include <stdio.h>
-#include <stdlib.h>
-
-struct Node {
-    int data;
-    struct Node *next;
-};
-
-int main() {
-    struct Node *head = NULL;
-
-    head = (struct Node *)malloc(sizeof(struct Node));
-
-    head->data = 10;
-    head->next = NULL;
-
-    printf("Data: %d\n", head->data);
-
-    free(head);
-
-    return 0;
-}
-```
-
----
-
-## 🎯 Goals
-
-* Understand fundamental DSA concepts
-* Improve logical thinking and problem-solving
-* Learn time and space complexity
-* Practice coding regularly
-* Solve problems from platforms like **LeetCode**
-* Prepare for coding interviews and technical assessments
-
----
-
-## ⏱️ Complexity
-
-For each important algorithm, the repository aims to include:
-
-* **Time Complexity**
-* **Space Complexity**
-* **Best Case**
-* **Average Case**
-* **Worst Case**
-
-Example:
-
-| Algorithm     |       Best |    Average |      Worst |
-| ------------- | ---------: | ---------: | ---------: |
-| Linear Search |       O(1) |       O(n) |       O(n) |
-| Binary Search |       O(1) |   O(log n) |   O(log n) |
-| Bubble Sort   |       O(n) |      O(n²) |      O(n²) |
-| Merge Sort    | O(n log n) | O(n log n) | O(n log n) |
-| Quick Sort    | O(n log n) | O(n log n) |      O(n²) |
-
----
-
-## 🧩 Practice Platforms
-
-* LeetCode
-* HackerRank
-* GeeksforGeeks
-* CodeChef
-* Codeforces
-
----
-
-## 📈 Progress
-
-This repository is continuously updated as I learn new concepts and solve more problems.
-
-* [x] Basic C programming
-* [x] Arrays
-* [x] Linked Lists
-* [x] Stack & Queue
-* [ ] Trees
-* [ ] Graphs
-* [ ] Dynamic Programming
-* [ ] Advanced Algorithms
-
----
-
-## 🤝 Contributions
-
-This repository is primarily for my learning and practice.
-Suggestions, improvements, and useful approaches are always welcome.
-
----
-
-## ⭐ Support
-
-If you find this repository useful, consider giving it a **⭐ Star**.
-
----
-
-## 👨‍💻 Author
-
-**Vaibhav Tyagi**
-
-B.Tech CSE Student | Learning DSA & Problem Solving
-
----
-
-### 📌 Note
-
-This repository is created for **educational and practice purposes**. The code may be improved and optimized as I learn more advanced concepts.
+├── 📁 Searching/
+│   ├── Linear Search
+│   ├── Binary Search
+│   └── Searching problems
+│
+├── 📁 Sorting/
+│   ├── Bubble Sort
+│   ├── Selection Sort
+│   ├── Insertion Sort
+│   └── Other sorting algorithms
+│
+└── 📄 CODE
+    └── Additional DSA practice programs

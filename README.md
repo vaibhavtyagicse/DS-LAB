@@ -1,65 +1,46 @@
-# 📚 DSA in C
+# 📚 Data Structures & Algorithms in C
 
-> A collection of Data Structures & Algorithms implementations and practice problems written in C.
+> A collection of Data Structures and Algorithms programs implemented in C for learning, practice, and problem solving.
 
-![Language](https://img.shields.io/badge/Language-C-blue.svg)
-![Topic](https://img.shields.io/badge/Topic-Data%20Structures%20%26%20Algorithms-orange.svg)
-![Status](https://img.shields.io/badge/Status-Learning-green.svg)
+![Language](https://img.shields.io/badge/Language-C-blue)
+![Repository](https://img.shields.io/badge/Repository-DSA-orange)
+![Status](https://img.shields.io/badge/Status-Active%20Learning-green)
 
 ---
 
-## 📖 About This Repository
+## 📖 About
 
 Welcome to my **Data Structures & Algorithms (DSA)** repository.
 
-This repository contains my journey of learning and practicing **Data Structures and Algorithms using C programming**.
+This repository contains my **DSA learning and practice programs written in C**. It is a collection of implementations that I am building while learning the fundamentals of Data Structures and Algorithms.
 
-It includes implementations of fundamental concepts such as:
+The repository currently focuses on:
 
-- Arrays
-- Linked Lists
-- Searching Algorithms
-- Sorting Algorithms
-- Programming and Problem-Solving Practice
+- 🔢 Arrays
+- 🔗 Linked Lists
+- 🔍 Searching Algorithms
+- 🔄 Sorting Algorithms
+- 💻 Basic C programming practice
 
-The main purpose of this repository is to strengthen my understanding of DSA, improve logical thinking, and develop efficient problem-solving skills.
+The main goal is to understand how different data structures and algorithms work, implement them from scratch, and improve my problem-solving skills.
 
-This repository will be continuously updated as I learn new concepts and solve more problems.
-
----
-
-## 🚀 Why This Repository?
-
-Data Structures and Algorithms are fundamental to programming and software development.
-
-Through this repository, I am working on:
-
-- 🧠 Improving logical thinking
-- 💻 Strengthening C programming
-- 🧩 Developing problem-solving skills
-- ⚡ Understanding algorithm efficiency
-- 📊 Learning Time & Space Complexity
-- 🎯 Preparing for coding interviews
-- 🎓 Building strong DSA fundamentals
+This repository is a part of my ongoing **B.Tech CSE learning journey** and will continue to grow as I learn more DSA concepts.
 
 ---
 
-## 🛠️ Language Used
+## 🎯 Objectives
 
-### 🔵 C Programming
+The main objectives of this repository are:
 
-The current programs in this repository are primarily implemented using **C**.
-
-C helps in understanding important programming concepts such as:
-
-- Pointers
-- Structures
-- Memory Management
-- Arrays
-- Functions
-- Dynamic Memory Allocation
-- Recursion
-- Low-Level Data Structure Implementation
+- Understand the fundamentals of Data Structures
+- Learn how algorithms work internally
+- Practice implementing DSA concepts in C
+- Improve logical thinking and problem-solving
+- Understand pointers and memory management
+- Learn algorithm efficiency
+- Analyze Time and Space Complexity
+- Build a strong foundation for advanced DSA
+- Prepare for coding problems and technical interviews
 
 ---
 
@@ -69,27 +50,18 @@ C helps in understanding important programming concepts such as:
 DSA/
 │
 ├── 📁 Array/
-│   ├── Array programs
-│   ├── Array operations
-│   └── Array-based problems
+│   └── Array related programs
 │
 ├── 📁 Linked List/
-│   ├── Node creation
-│   ├── Traversal
-│   ├── Insertion
-│   ├── Deletion
-│   └── Linked List problems
+│   └── Linked List related programs
 │
 ├── 📁 Searching/
-│   ├── Linear Search
-│   ├── Binary Search
-│   └── Searching problems
+│   └── Searching algorithm programs
 │
 ├── 📁 Sorting/
-│   ├── Bubble Sort
-│   ├── Selection Sort
-│   ├── Insertion Sort
-│   └── Other sorting algorithms
+│   └── Sorting algorithm programs
 │
-└── 📄 CODE
-    └── Additional DSA practice programs
+├── 📄 CODE
+│   └── Basic C programming practice
+│
+└── 📄 README.md
